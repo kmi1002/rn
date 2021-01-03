@@ -1,8 +1,6 @@
+**/*.js
 node_modules
 
 # tests
 e2e
 __tests__
-
-#
-**/*.js

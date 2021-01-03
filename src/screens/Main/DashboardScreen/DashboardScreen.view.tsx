@@ -1,6 +1,12 @@
 import React from 'react';
-import { Text } from 'react-native';
+import { View, Text, SafeAreaView } from 'react-native';
 
-const DashboardScreenView = () => <Text>DashboardScreen</Text>;
+const DashboardScreenView = () => (
+  <SafeAreaView style={{ flex: 1, backgroundColor: '#adadad' }}>
+    <View style={{ flex: 1, backgroundColor: '#ededed' }}>
+      <Text>Dashboard</Text>
+    </View>
+  </SafeAreaView>
+);
 
 export default DashboardScreenView;

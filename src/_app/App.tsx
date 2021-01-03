@@ -1,6 +1,6 @@
 import React from 'react';
-import { SafeAreaProvider } from 'react-native-safe-area-context';
+import AppStack from '@navigations/AppStack';
 
-const App = () => <SafeAreaProvider>sdd</SafeAreaProvider>;
+const App = () => <AppStack />;
 
 export default App;

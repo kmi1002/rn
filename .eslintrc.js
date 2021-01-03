@@ -27,6 +27,7 @@ module.exports = {
       node: {
         paths: ['src'],
         alias: {
+          src: './src',
           apis: './src/apis',
           assets: './src/assets',
           images: './src/images',
@@ -39,7 +40,7 @@ module.exports = {
           constants: './src/constants',
           dummies: './src/dummies',
           helpers: './src/helpers',
-          '@navigations': './src/navigations',
+          navigations: './src/navigations',
           screens: './src/screens',
           stores: './src/stores',
           sagas: './src/sagas',

@@ -1,26 +1,17 @@
-import React, { useEffect } from 'react';
-// import { useSelector } from 'react-redux';
+import React from 'react';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { NavigationContainer } from '@react-navigation/native';
-// import SplashScreen from 'react-native-splash-screen';
-import { AuthStack, MainStack } from '@navigations/';
-// import { RootState } from '@/stores';
-// import { AuthStateType, SignupStep } from '@stores/auth/type';
+import AuthStack from '@navigations/AuthStack';
+import MainStack from '@navigations/MainStack';
 
 const AppStack = () => {
-  const isLogin = false;
-  // const { signupStep, authState } = useSelector((state: RootState) => state.auth);
-  //
-  // const isLogin = () => {
-  //   return signupStep === SignupStep.DONE && authState === AuthStateType.LOGGED_IN;
-  // };
-  //
-  // useEffect(() => {
-  //   setTimeout(() => {
-  //     SplashScreen.hide();
-  //   }, 1000);
-  // }, []);
+  const isLogin = true;
 
-  return <NavigationContainer>{isLogin ? <MainStack /> : <AuthStack />}</NavigationContainer>;
+  return (
+    <SafeAreaProvider>
+      <NavigationContainer>{isLogin ? <MainStack /> : <AuthStack />}</NavigationContainer>
+    </SafeAreaProvider>
+  );
 };
 
 export default AppStack;
