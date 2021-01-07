@@ -11,6 +11,7 @@ module.exports = {
           '@apis': './src/apis',
           '@assets': './src/assets',
           '@images': './src/assets/images',
+          '@locales': './src/assets/locales',
           '@styles': './src/assets/styles',
           '@components': './src/components',
           '@atoms': './src/components/atoms',
