@@ -51,6 +51,7 @@ const authenticationReducer = (state = initialState, action: T.InitActionTypes):
         authState: AuthStateType.LOGGED_IN,
         provider: action.provider,
         accessToken: action.token,
+        signupStep: SignupStep.DONE,
       };
 
     case T.LOGIN_FAILURE:

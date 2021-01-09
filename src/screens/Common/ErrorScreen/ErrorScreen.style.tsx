@@ -1,26 +1,25 @@
 import styled from 'styled-components/native';
-import { Global, colors } from '@styles/index';
 
-export const Wrapper = styled(Global.ContainerCenterCenter)``;
+export const Wrapper = styled.View`
+  align-items: center;
+  justify-content: center;
+`;
 
 export const Container = styled.View`
-  padding: 0 37px 40px 38px;
+  padding: 40px;
 `;
 
 export const Title = styled.Text`
+  color: #9b9b9b;
   font-size: 36px;
-  color: ${colors.tmpText.grey};
   text-align: center;
   margin-top: 24px;
   margin-bottom: 13px;
 `;
 
 export const Description = styled.Text`
-  font-family: Nunito;
+  color: #4a4a4a;
   font-size: 16px;
   line-height: 20px;
-  letter-spacing: 0.5px;
-  color: ${colors.text.dark['100']};
-
   text-align: center;
 `;

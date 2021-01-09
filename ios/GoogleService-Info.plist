@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>290319756211-u5que9095iivdob709nv0mduub394iim.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.290319756211-u5que9095iivdob709nv0mduub394iim</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBkDb1Ke5plyp4Bl8JCad7tMtlN1F2FeMM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>290319756211</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.crocusenergy.AceloEdge</string>
+	<key>PROJECT_ID</key>
+	<string>acelo-edge-dev-292306</string>
+	<key>STORAGE_BUCKET</key>
+	<string>acelo-edge-dev-292306.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:290319756211:ios:bcdcaf6d7d738124aef9c6</string>
+	<key>DATABASE_URL</key>
+	<string>https://acelo-edge-dev-292306.firebaseio.com</string>
+</dict>
+</plist>

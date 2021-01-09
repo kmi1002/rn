@@ -4,18 +4,18 @@ import { Provider } from 'react-redux';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import ErrorBoundary from '@helpers/ErrorBoundary';
 import AppStack from '@navigations/AppStack';
-import {store} from '@constants/configureStore';
-import '@assets/languages/i18n';
+import { store } from '@constants/configureStore';
+import '@helpers/i18n';
 
 const App = () => {
   return (
     <Provider store={store}>
       {/*<ThemeProvider theme={Theme}>*/}
-        <SafeAreaProvider>
-          <ErrorBoundary>
-            <AppStack />
-          </ErrorBoundary>
-        </SafeAreaProvider>
+      <SafeAreaProvider>
+        <ErrorBoundary>
+          <AppStack />
+        </ErrorBoundary>
+      </SafeAreaProvider>
       {/*</ThemeProvider>*/}
     </Provider>
   );

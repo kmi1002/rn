@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "290319756211",
+    "firebase_url": "https://acelo-edge-dev-292306.firebaseio.com",
+    "project_id": "acelo-edge-dev-292306",
+    "storage_bucket": "acelo-edge-dev-292306.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:290319756211:android:81dda94b0cde5348aef9c6",
+        "android_client_info": {
+          "package_name": "com.crocusenergy.AceloEdge"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "290319756211-gqutpm8bqcudodjuuugucnlamh8vflj9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBortVa-XmcpD3DNvrapYvhRF8nT886Ty8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "290319756211-gqutpm8bqcudodjuuugucnlamh8vflj9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "290319756211-u5que9095iivdob709nv0mduub394iim.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.crocusenergy.AceloEdge"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

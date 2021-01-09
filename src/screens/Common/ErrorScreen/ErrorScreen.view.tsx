@@ -1,9 +1,8 @@
 import React from 'react';
-import * as S from './style';
-
+import * as S from './ErrorScreen.style';
 import { useTranslation } from 'react-i18next';
 
-const ErrorScreen = () => {
+const ErrorScreenView = () => {
   const { t } = useTranslation();
 
   return (
@@ -16,4 +15,4 @@ const ErrorScreen = () => {
   );
 };
 
-export default ErrorScreen;
+export default ErrorScreenView;

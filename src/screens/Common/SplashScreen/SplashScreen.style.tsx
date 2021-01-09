@@ -6,7 +6,7 @@ export const Wrapper = styled.View`
 `;
 
 export const Title = styled.Text`
-  margin-top: 106px;
+  color: #9b9b9b;
+  font-size: 36px;
+  text-align: center;
 `;
-
-export const Button = styled.Button``;

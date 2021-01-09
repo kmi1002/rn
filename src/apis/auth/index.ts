@@ -1,6 +1,6 @@
 import api from '@apis/api';
 
-const AUTH_URL = 'http://localhost:3003';
+const AUTH_URL = 'https://auth-dot-acelo-edge-dev-292306.du.r.appspot.com';
 
 export const login = (provider: string, accessToken?: string, email?: string, password?: string) => {
   let payload: { [k: string]: string } = { provider: provider };

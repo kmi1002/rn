@@ -23,4 +23,4 @@ export const makeStore = () => {
   return store;
 };
 
-export const store = makeStore()
+export const store = makeStore();
